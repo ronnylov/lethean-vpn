@@ -86,7 +86,6 @@ make install [FORCE=1]
 If you get an error when doing pip3 install above (happens with Arch Linux) try following command:
 ```bash
 pip3 install --user -r requirements.txt
-make install [FORCE=1]
 ```
 
 
