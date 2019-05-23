@@ -83,6 +83,12 @@ pip3 install -r requirements.txt
 ./configure.sh --easy [--with-wallet-address <wallet_address>]
 make install [FORCE=1]
 ```
+If you get an error when doing pip3 install above (happens with Arch Linux) try following command:
+```bash
+pip3 install --user -r requirements.txt
+make install [FORCE=1]
+```
+
 
 ### Public configuration - sdp.json
 */opt/lthn/etc/sdp.json* describes local services for orchestration. It is uploaded to SDP server by --upload-sdp option. Note that uploading to SDP server is paid service. <!--  **TODO add SDP server integration instructions** --> 
